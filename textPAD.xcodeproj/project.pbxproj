@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B209E5AB1CC764FA005A2297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B209E5AA1CC764FA005A2297 /* main.m */; };
+		B209E5AE1CC764FA005A2297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B209E5AD1CC764FA005A2297 /* AppDelegate.m */; };
+		B209E5B11CC764FA005A2297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B209E5B01CC764FA005A2297 /* ViewController.m */; };
+		B209E5B41CC764FA005A2297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B209E5B21CC764FA005A2297 /* Main.storyboard */; };
+		B209E5B61CC764FA005A2297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B209E5B51CC764FA005A2297 /* Assets.xcassets */; };
+		B209E5B91CC764FA005A2297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B209E5B71CC764FA005A2297 /* LaunchScreen.storyboard */; };
+		B209E5C41CC764FA005A2297 /* textPADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B209E5C31CC764FA005A2297 /* textPADTests.m */; };
+		B209E5CF1CC764FA005A2297 /* textPADUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B209E5CE1CC764FA005A2297 /* textPADUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B209E5C01CC764FA005A2297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B209E59E1CC764FA005A2297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B209E5A51CC764FA005A2297;
+			remoteInfo = textPAD;
+		};
+		B209E5CB1CC764FA005A2297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B209E59E1CC764FA005A2297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B209E5A51CC764FA005A2297;
+			remoteInfo = textPAD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B209E5A61CC764FA005A2297 /* textPAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textPAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B209E5AA1CC764FA005A2297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B209E5AC1CC764FA005A2297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B209E5AD1CC764FA005A2297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B209E5AF1CC764FA005A2297 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B209E5B01CC764FA005A2297 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B209E5B31CC764FA005A2297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B209E5B51CC764FA005A2297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B209E5B81CC764FA005A2297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B209E5BA1CC764FA005A2297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B209E5BF1CC764FA005A2297 /* textPADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textPADTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B209E5C31CC764FA005A2297 /* textPADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textPADTests.m; sourceTree = "<group>"; };
+		B209E5C51CC764FA005A2297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B209E5CA1CC764FA005A2297 /* textPADUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textPADUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B209E5CE1CC764FA005A2297 /* textPADUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textPADUITests.m; sourceTree = "<group>"; };
+		B209E5D01CC764FA005A2297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B209E5A31CC764FA005A2297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B209E5BC1CC764FA005A2297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B209E5C71CC764FA005A2297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B209E59D1CC764FA005A2297 = {
+			isa = PBXGroup;
+			children = (
+				B209E5A81CC764FA005A2297 /* textPAD */,
+				B209E5C21CC764FA005A2297 /* textPADTests */,
+				B209E5CD1CC764FA005A2297 /* textPADUITests */,
+				B209E5A71CC764FA005A2297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B209E5A71CC764FA005A2297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B209E5A61CC764FA005A2297 /* textPAD.app */,
+				B209E5BF1CC764FA005A2297 /* textPADTests.xctest */,
+				B209E5CA1CC764FA005A2297 /* textPADUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B209E5A81CC764FA005A2297 /* textPAD */ = {
+			isa = PBXGroup;
+			children = (
+				B209E5AC1CC764FA005A2297 /* AppDelegate.h */,
+				B209E5AD1CC764FA005A2297 /* AppDelegate.m */,
+				B209E5AF1CC764FA005A2297 /* ViewController.h */,
+				B209E5B01CC764FA005A2297 /* ViewController.m */,
+				B209E5B21CC764FA005A2297 /* Main.storyboard */,
+				B209E5B51CC764FA005A2297 /* Assets.xcassets */,
+				B209E5B71CC764FA005A2297 /* LaunchScreen.storyboard */,
+				B209E5BA1CC764FA005A2297 /* Info.plist */,
+				B209E5A91CC764FA005A2297 /* Supporting Files */,
+			);
+			path = textPAD;
+			sourceTree = "<group>";
+		};
+		B209E5A91CC764FA005A2297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B209E5AA1CC764FA005A2297 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B209E5C21CC764FA005A2297 /* textPADTests */ = {
+			isa = PBXGroup;
+			children = (
+				B209E5C31CC764FA005A2297 /* textPADTests.m */,
+				B209E5C51CC764FA005A2297 /* Info.plist */,
+			);
+			path = textPADTests;
+			sourceTree = "<group>";
+		};
+		B209E5CD1CC764FA005A2297 /* textPADUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B209E5CE1CC764FA005A2297 /* textPADUITests.m */,
+				B209E5D01CC764FA005A2297 /* Info.plist */,
+			);
+			path = textPADUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B209E5A51CC764FA005A2297 /* textPAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B209E5D31CC764FA005A2297 /* Build configuration list for PBXNativeTarget "textPAD" */;
+			buildPhases = (
+				B209E5A21CC764FA005A2297 /* Sources */,
+				B209E5A31CC764FA005A2297 /* Frameworks */,
+				B209E5A41CC764FA005A2297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textPAD;
+			productName = textPAD;
+			productReference = B209E5A61CC764FA005A2297 /* textPAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B209E5BE1CC764FA005A2297 /* textPADTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B209E5D61CC764FA005A2297 /* Build configuration list for PBXNativeTarget "textPADTests" */;
+			buildPhases = (
+				B209E5BB1CC764FA005A2297 /* Sources */,
+				B209E5BC1CC764FA005A2297 /* Frameworks */,
+				B209E5BD1CC764FA005A2297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B209E5C11CC764FA005A2297 /* PBXTargetDependency */,
+			);
+			name = textPADTests;
+			productName = textPADTests;
+			productReference = B209E5BF1CC764FA005A2297 /* textPADTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B209E5C91CC764FA005A2297 /* textPADUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B209E5D91CC764FA005A2297 /* Build configuration list for PBXNativeTarget "textPADUITests" */;
+			buildPhases = (
+				B209E5C61CC764FA005A2297 /* Sources */,
+				B209E5C71CC764FA005A2297 /* Frameworks */,
+				B209E5C81CC764FA005A2297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B209E5CC1CC764FA005A2297 /* PBXTargetDependency */,
+			);
+			name = textPADUITests;
+			productName = textPADUITests;
+			productReference = B209E5CA1CC764FA005A2297 /* textPADUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B209E59E1CC764FA005A2297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hoomsun;
+				TargetAttributes = {
+					B209E5A51CC764FA005A2297 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B209E5BE1CC764FA005A2297 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B209E5A51CC764FA005A2297;
+					};
+					B209E5C91CC764FA005A2297 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B209E5A51CC764FA005A2297;
+					};
+				};
+			};
+			buildConfigurationList = B209E5A11CC764FA005A2297 /* Build configuration list for PBXProject "textPAD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B209E59D1CC764FA005A2297;
+			productRefGroup = B209E5A71CC764FA005A2297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B209E5A51CC764FA005A2297 /* textPAD */,
+				B209E5BE1CC764FA005A2297 /* textPADTests */,
+				B209E5C91CC764FA005A2297 /* textPADUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B209E5A41CC764FA005A2297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B209E5B91CC764FA005A2297 /* LaunchScreen.storyboard in Resources */,
+				B209E5B61CC764FA005A2297 /* Assets.xcassets in Resources */,
+				B209E5B41CC764FA005A2297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B209E5BD1CC764FA005A2297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B209E5C81CC764FA005A2297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B209E5A21CC764FA005A2297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B209E5B11CC764FA005A2297 /* ViewController.m in Sources */,
+				B209E5AE1CC764FA005A2297 /* AppDelegate.m in Sources */,
+				B209E5AB1CC764FA005A2297 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B209E5BB1CC764FA005A2297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B209E5C41CC764FA005A2297 /* textPADTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B209E5C61CC764FA005A2297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B209E5CF1CC764FA005A2297 /* textPADUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B209E5C11CC764FA005A2297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B209E5A51CC764FA005A2297 /* textPAD */;
+			targetProxy = B209E5C01CC764FA005A2297 /* PBXContainerItemProxy */;
+		};
+		B209E5CC1CC764FA005A2297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B209E5A51CC764FA005A2297 /* textPAD */;
+			targetProxy = B209E5CB1CC764FA005A2297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B209E5B21CC764FA005A2297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B209E5B31CC764FA005A2297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B209E5B71CC764FA005A2297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B209E5B81CC764FA005A2297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B209E5D11CC764FA005A2297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B209E5D21CC764FA005A2297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B209E5D41CC764FA005A2297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = textPAD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hs123.textPAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B209E5D51CC764FA005A2297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = textPAD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hs123.textPAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B209E5D71CC764FA005A2297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = textPADTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hs123.textPADTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textPAD.app/textPAD";
+			};
+			name = Debug;
+		};
+		B209E5D81CC764FA005A2297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = textPADTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hs123.textPADTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/textPAD.app/textPAD";
+			};
+			name = Release;
+		};
+		B209E5DA1CC764FA005A2297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = textPADUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hs123.textPADUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = textPAD;
+			};
+			name = Debug;
+		};
+		B209E5DB1CC764FA005A2297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = textPADUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hs123.textPADUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = textPAD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B209E5A11CC764FA005A2297 /* Build configuration list for PBXProject "textPAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B209E5D11CC764FA005A2297 /* Debug */,
+				B209E5D21CC764FA005A2297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B209E5D31CC764FA005A2297 /* Build configuration list for PBXNativeTarget "textPAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B209E5D41CC764FA005A2297 /* Debug */,
+				B209E5D51CC764FA005A2297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B209E5D61CC764FA005A2297 /* Build configuration list for PBXNativeTarget "textPADTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B209E5D71CC764FA005A2297 /* Debug */,
+				B209E5D81CC764FA005A2297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B209E5D91CC764FA005A2297 /* Build configuration list for PBXNativeTarget "textPADUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B209E5DA1CC764FA005A2297 /* Debug */,
+				B209E5DB1CC764FA005A2297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B209E59E1CC764FA005A2297 /* Project object */;
+}
